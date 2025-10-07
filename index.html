@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Минимальное расписание</title>
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    background: #f0f4f8;
+    color: #2c3e50;
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 260px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<h1>Расписание колледжа</h1>
+<div class="container">
+  <div class="card">
+    <b>Группа 1</b><br/>08.09.2025<br/>Подгруппа 1, Подгруппа 2<br/>Общие предметы
+  </div>
+  <div class="card">
+    <b>Группа 2</b><br/>08.09.2025<br/>Подгруппа 1, Подгруппа 2<br/>Общие предметы
+  </div>
+  <div class="card">
+    <b>Группа 3</b><br/>08.09.2025<br/>Подгруппа 1, Подгруппа 2<br/>Общие предметы
+  </div>
+  <div class="card">
+    <b>Группа 4</b><br/>08.09.2025<br/>Подгруппа 1, Подгруппа 2<br/>Общие предметы
+  </div>
+  <div class="card">
+    <b>Группа 5</b><br/>08.09.2025<br/>Подгруппа 1, Подгруппа 2<br/>Общие предметы
+  </div>
+  <div class="card">
+    <b>Группа 6</b><br/>08.09.2025<br/>Подгруппа 1, Подгруппа 2<br/>Общие предметы
+  </div>
+</div>
+</body>
+</html>
